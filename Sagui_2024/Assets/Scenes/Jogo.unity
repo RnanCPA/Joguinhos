@@ -814,7 +814,7 @@ GameObject:
   - component: {fileID: 1476290996}
   - component: {fileID: 1476290995}
   m_Layer: 5
-  m_Name: GameObject
+  m_Name: VisorCoracao
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
