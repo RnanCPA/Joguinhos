@@ -1,13 +1,13 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Inimigo : MonoBehaviour
+public class SpawnarInimigo : MonoBehaviour
 {
     private GameController gc;
 
-    public float Speed;
+    public List<GameObject> Inimigos;
+    public float Timer;
 
     // Start is called before the first frame update
     void Start()
@@ -20,22 +20,20 @@ public class Inimigo : MonoBehaviour
     {
         if(gc.GameLigado == true)
         {
-            Mover();
+            Spawnar();
         }
     }
 
-    public void Mover()
+    public void Spawnar()
     {
-        Vector2 NewPos = new Vector2(transform.position.x - 1f, transform.position.y);
+        Timer += Time.deltaTime;
 
-        transform.position = Vector2.MoveTowards(transform.position, NewPos, Speed);
-    }
-
-    public void OnCollisionEnter2D(Collision2D collision)
-    {
-        if(collision.gameObject.tag == "Finish")
+        if(Timer > 4f)
         {
-            Destroy(this.gameObject);
+            GameObject Vaca = Instantiate(Inimigos[0], transform.position,
+           Quaternion.identity);
+
+            Timer = 0;
         }
     }
 

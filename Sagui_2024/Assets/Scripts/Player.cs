@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    private GameController gc;
+
     Rigidbody2D rb;
 
     public float JumpForce;
@@ -12,13 +14,18 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        gc = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
         rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        Pular();
+        if(gc.GameLigado == true)
+        {
+            Pular();
+            Pause();
+        }
     }
 
     public void Pular()
@@ -38,6 +45,24 @@ public class Player : MonoBehaviour
         if(collision.gameObject.tag == "Piso")
         {
             PodePular = true;
+        }
+
+        if(collision.gameObject.tag == "Inimigo")
+        {
+            Destroy(collision.gameObject);
+            gc.Vidas--;
+            if(gc.Vidas <= 0)
+            {
+                gc.Reiniciar();
+            }
+        }
+    }
+
+    public void Pause()
+    {
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            gc.Pausar();
         }
     }
 
