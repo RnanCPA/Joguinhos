@@ -11,6 +11,8 @@ public class Player : MonoBehaviour
     public float JumpForce;
     bool PodePular = true;
 
+    public float moedas = 0;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -57,6 +59,16 @@ public class Player : MonoBehaviour
             }
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D colisao)
+    {
+        if(colisao.gameObject.tag == "Moeda")
+        {
+            moedas++;
+            Destroy(colisao.gameObject);
+        }
+    }
+
 
     public void Pause()
     {

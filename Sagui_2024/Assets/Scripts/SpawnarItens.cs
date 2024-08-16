@@ -2,11 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnarInimigo : MonoBehaviour
+public class SpawnarItens : MonoBehaviour
 {
+
     private GameController gc;
 
-    public List<GameObject> Inimigos;
+    public List<GameObject> Itens;
     public float Timer;
 
     // Start is called before the first frame update
@@ -28,10 +29,10 @@ public class SpawnarInimigo : MonoBehaviour
     {
         Timer += Time.deltaTime;
 
-        if(Timer > 5.5f)
+        if (Timer > 4f)
         {
-            GameObject Vaca = Instantiate(Inimigos[0], transform.position,
-           Quaternion.identity);
+            int randomI = Random.Range(0, Itens.Count);
+            GameObject Vaca = Instantiate(Itens[randomI], transform.position,Quaternion.identity);
 
             Timer = 0;
         }

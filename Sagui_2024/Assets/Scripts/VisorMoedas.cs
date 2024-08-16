@@ -6,19 +6,19 @@ using TMPro;
 public class VisorMoedas : MonoBehaviour
 {
 
-    private GameController gc;
+    private Player pl;
     private TMP_Text meuTexto;
 
     // Start is called before the first frame update
     void Start()
     {
-        gc= GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
+        pl = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
         meuTexto = GetComponent<TMP_Text>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        meuTexto.text = ": " + gc.moedas.ToString();
+        meuTexto.text = ": " + pl.moedas.ToString();
     }
 }
