@@ -8,6 +8,7 @@ public class GameController : MonoBehaviour
 
     public bool GameLigado = true;
     public float Vidas = 3;
+    public float moedas = 0;
 
     public GameObject TelaJogo;
     public GameObject TelaPause;
@@ -32,6 +33,11 @@ public class GameController : MonoBehaviour
     public void Reiniciar()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void FecharJogo()
+    {
+        Application.Quit();
     }
 
     public void Pausar()

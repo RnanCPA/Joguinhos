@@ -60,7 +60,7 @@ public class Player : MonoBehaviour
 
     public void Pause()
     {
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
             gc.Pausar();
         }
