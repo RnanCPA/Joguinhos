@@ -19,6 +19,6 @@ public class VisorMoedas : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        meuTexto.text = ": " + pl.moedas.ToString();
+        meuTexto.text = pl.moedas.ToString();
     }
 }
