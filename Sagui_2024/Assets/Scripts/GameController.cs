@@ -12,6 +12,7 @@ public class GameController : MonoBehaviour
 
     public GameObject TelaJogo;
     public GameObject TelaPause;
+    public GameObject TelaOver;
 
     // Start is called before the first frame update
     void Start()
@@ -52,6 +53,18 @@ public class GameController : MonoBehaviour
         TelaPause.SetActive(false);
         GameLigado = true;
         TelaJogo.SetActive(true);
+    }
+
+    public void MenuInicial()
+    {
+        SceneManager.LoadScene(0);
+    }
+
+    public void GameOver()
+    {
+        TelaJogo.SetActive(false);
+        GameLigado = false;
+        TelaOver.SetActive(true);
     }
 
 }

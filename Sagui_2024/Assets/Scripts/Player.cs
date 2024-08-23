@@ -55,7 +55,7 @@ public class Player : MonoBehaviour
             gc.Vidas--;
             if(gc.Vidas <= 0)
             {
-                gc.Reiniciar();
+                gc.GameOver();
             }
         }
     }
