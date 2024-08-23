@@ -7,6 +7,7 @@ TagManager:
   - Piso
   - Inimigo
   - Moeda
+  - Vida
   layers:
   - Default
   - TransparentFX

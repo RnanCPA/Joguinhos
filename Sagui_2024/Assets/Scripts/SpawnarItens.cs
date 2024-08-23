@@ -29,7 +29,7 @@ public class SpawnarItens : MonoBehaviour
     {
         Timer += Time.deltaTime;
 
-        if (Timer > 4f)
+        if (Timer > 3.5f)
         {
             int randomI = Random.Range(0, Itens.Count);
             GameObject Vaca = Instantiate(Itens[randomI], transform.position,Quaternion.identity);

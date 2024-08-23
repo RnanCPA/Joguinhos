@@ -67,6 +67,16 @@ public class Player : MonoBehaviour
             moedas++;
             Destroy(colisao.gameObject);
         }
+
+        if(colisao.gameObject.tag == "Vida")
+        {
+            if(gc.Vidas < 3)
+            {
+                gc.Vidas++;
+            }
+            Destroy(colisao.gameObject);
+        }
+
     }
 
 
