@@ -31,9 +31,9 @@ public class Inimigo : MonoBehaviour
         transform.position = Vector2.MoveTowards(transform.position, NewPos, Speed);
     }
 
-    public void OnCollisionEnter2D(Collision2D collision)
+    public void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.tag == "Finish")
+        if (collision.gameObject.tag == "Finish")
         {
             Destroy(this.gameObject);
         }
