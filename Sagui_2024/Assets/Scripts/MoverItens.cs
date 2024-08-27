@@ -17,7 +17,10 @@ public class MoverItens : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Mover();
+        if(gc.GameLigado == true)
+        {
+            Mover();
+        }  
     }
 
     void Mover()
@@ -31,6 +34,7 @@ public class MoverItens : MonoBehaviour
     {
         if (collision.gameObject.tag == "Finish")
         {
+            Debug.Log("Tocou barreira");
             Destroy(this.gameObject);
         }
     }
