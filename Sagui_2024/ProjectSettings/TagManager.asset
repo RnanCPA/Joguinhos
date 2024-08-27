@@ -8,6 +8,7 @@ TagManager:
   - Inimigo
   - Moeda
   - Vida
+  - FinishB
   layers:
   - Default
   - TransparentFX
