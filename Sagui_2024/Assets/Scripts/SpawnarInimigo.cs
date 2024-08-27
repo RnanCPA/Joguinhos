@@ -28,9 +28,11 @@ public class SpawnarInimigo : MonoBehaviour
     {
         Timer += Time.deltaTime;
 
-        if(Timer > 5.5f)
+        if(Timer > 5f)
         {
-            GameObject Vaca = Instantiate(Inimigos[0], transform.position,
+            int indicador = Random.Range(0, Inimigos.Count);
+
+            GameObject Vaca = Instantiate(Inimigos[indicador], transform.position,
            Quaternion.identity);
 
             Timer = 0;
