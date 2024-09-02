@@ -31,7 +31,7 @@ public class spawnPassaro : MonoBehaviour
         if (Timer > 8f)
         {
             int Sorteio = Random.Range(0, 10);
-            if(Sorteio <= 5)
+            if(Sorteio <= 6)
             {
                 int randomI = Random.Range(0, Passaros.Count);
                 GameObject Vaca = Instantiate(Passaros[randomI], transform.position, Quaternion.identity);
