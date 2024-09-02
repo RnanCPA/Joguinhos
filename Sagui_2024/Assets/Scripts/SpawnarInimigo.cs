@@ -32,7 +32,9 @@ public class SpawnarInimigo : MonoBehaviour
         {
             int indicador = Random.Range(0, Inimigos.Count);
 
-            GameObject Vaca = Instantiate(Inimigos[indicador], transform.position,
+            Vector2 Pos = new Vector2(transform.position.x, transform.position.y + 1f);
+
+            GameObject Vaca = Instantiate(Inimigos[indicador], Pos,
            Quaternion.identity);
 
             Timer = 0;
