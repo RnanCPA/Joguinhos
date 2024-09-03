@@ -1537,7 +1537,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &999768215
 Transform:
   m_ObjectHideFlags: 0
@@ -2224,7 +2224,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 39, y: -200}
-  m_SizeDelta: {x: 300, y: 100}
+  m_SizeDelta: {x: 600, y: 100}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1476290995
 MonoBehaviour:
@@ -3216,6 +3216,8 @@ MonoBehaviour:
   - {fileID: 6345162969881602312, guid: 8d3a0028f29513e44817f8b8eeee628a, type: 3}
   - {fileID: 6399591162820006406, guid: 349ef945ebe0337469040d6798861030, type: 3}
   - {fileID: 78395328747249361, guid: bc81ca1ca11bc774e96b7ef8b2574de2, type: 3}
+  - {fileID: 7482698114338539664, guid: f74bf67aecfc9374284c7db427542ef3, type: 3}
+  - {fileID: 2174626094790174669, guid: 784e9003ddfa4cb448f249f343179bcc, type: 3}
   Timer: 0
 --- !u!4 &1866120626
 Transform:
@@ -3226,7 +3228,7 @@ Transform:
   m_GameObject: {fileID: 1866120624}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12, y: -3.5, z: 0}
+  m_LocalPosition: {x: 13.05, y: -3.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3248,7 +3250,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1907218735
 MonoBehaviour:
   m_ObjectHideFlags: 0
