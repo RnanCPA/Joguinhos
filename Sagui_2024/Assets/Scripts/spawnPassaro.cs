@@ -28,7 +28,7 @@ public class spawnPassaro : MonoBehaviour
     {
         Timer += Time.deltaTime;
 
-        if (Timer > 8f)
+        if (Timer > 10f)
         {
             int Sorteio = Random.Range(0, 10);
             if(Sorteio <= 6)
