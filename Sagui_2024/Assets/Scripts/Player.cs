@@ -68,6 +68,7 @@ public class Player : MonoBehaviour
             Destroy(colisao.gameObject);
         }
 
+
         if(colisao.gameObject.tag == "Vida")
         {
             if(gc.Vidas < 3)
