@@ -1,0 +1,919 @@
+fileFormatVersion: 2
+guid: 853051215fb276e40bfa1d6d677599c7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 400
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BANANITA BOLADA_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 540
+        width: 403.2
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aad925b088fdfe4ead8dbee54b6e5f2
+      internalID: -1072430730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BANANITA BOLADA_1
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 540
+        width: 403.2
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1e43fa66d913b4f94e0205c9e7ba2d
+      internalID: -1935594935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BANANITA BOLADA_2
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 540
+        width: 403.2
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2a2f72dda01f442aa29b73ce4359e4
+      internalID: 1473158127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BANANITA BOLADA_3
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 540
+        width: 403.2
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d88f85de9a7fda46a4710164f85184a
+      internalID: 1576360441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BANANITA BOLADA_4
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 540
+        width: 403.2
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4663e6b11755fed46a70edab23bc184d
+      internalID: 140670697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BANANITA BOLADA_5
+      rect:
+        serializedVersion: 2
+        x: 2015
+        y: 540
+        width: 403.2
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5269c5c33a812d344a8d5a7d0fd52970
+      internalID: -949841002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BANANITA BOLADA_6
+      rect:
+        serializedVersion: 2
+        x: 2418
+        y: 540
+        width: 403.2
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfbe7617bc238f448fa3e2644bfd2e0
+      internalID: -523670139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BANANITA BOLADA_7
+      rect:
+        serializedVersion: 2
+        x: 2821
+        y: 540
+        width: 403.2
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67f906911352444688351c93abe0c95
+      internalID: 1273862682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BANANITA BOLADA_8
+      rect:
+        serializedVersion: 2
+        x: 3224
+        y: 540
+        width: 403.2
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77b03ad0de5ae745a899e8818e61e74
+      internalID: -1035735628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BANANITA BOLADA_9
+      rect:
+        serializedVersion: 2
+        x: 3627
+        y: 540
+        width: 403.2
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095355f1db317d048aad12d6fa4a428a
+      internalID: 371993474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BANANITA BOLADA_10
+      rect:
+        serializedVersion: 2
+        x: 4030
+        y: 540
+        width: 403.2
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ced350fdc488a4889f104e72a1952e
+      internalID: -490961829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BANANITA BOLADA_11
+      rect:
+        serializedVersion: 2
+        x: 4433
+        y: 540
+        width: 403.2
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8209611e08d9f4aae35aa451131ed5
+      internalID: -612843231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BANANITA BOLADA_12
+      rect:
+        serializedVersion: 2
+        x: 4836
+        y: 540
+        width: 403.2
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d49fa7bca3696504a922d8496707af26
+      internalID: 553031103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BANANITA BOLADA_13
+      rect:
+        serializedVersion: 2
+        x: 5239
+        y: 540
+        width: 403.2
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0252253a6ecf447803eefdff1d19e9
+      internalID: 133476546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BANANITA BOLADA_14
+      rect:
+        serializedVersion: 2
+        x: 5642
+        y: 540
+        width: 403.2
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b38223990d4b36a44a4f0c0928a47011
+      internalID: -1628364775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BANANITA BOLADA_15
+      rect:
+        serializedVersion: 2
+        x: 6045
+        y: 540
+        width: 403.2
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4154ab79b32ae594581a804f605f2b72
+      internalID: -107933512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BANANITA BOLADA_16
+      rect:
+        serializedVersion: 2
+        x: 6448
+        y: 540
+        width: 403.2
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f698f231c55ad43498477e109f46d732
+      internalID: -412795445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BANANITA BOLADA_17
+      rect:
+        serializedVersion: 2
+        x: 6851
+        y: 540
+        width: 403.2
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c3b0e84c5f3da54db76bc38ffd5b838
+      internalID: -1763257563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BANANITA BOLADA_18
+      rect:
+        serializedVersion: 2
+        x: 7254
+        y: 540
+        width: 403.2
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da289fc2ac7f6e446a240e81ec90a96d
+      internalID: 178447299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BANANITA BOLADA_19
+      rect:
+        serializedVersion: 2
+        x: 7657
+        y: 540
+        width: 403.2
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff629695ff741c34eb41f410bdb0a645
+      internalID: 1305108961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BANANITA BOLADA_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 403.2
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f98fb4c39b195b41996d08f8014b2ab
+      internalID: 896809885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BANANITA BOLADA_21
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 0
+        width: 403.2
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 733335cdc96c3d549adb70b3bdf8d3d0
+      internalID: -1753491199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BANANITA BOLADA_22
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 0
+        width: 403.2
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99645fe12924cb24f93ed6ed88fc71e5
+      internalID: 959633644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BANANITA BOLADA_23
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 0
+        width: 403.2
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2a6254715124d4f8c89b8b772f2ab7
+      internalID: -1003280076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BANANITA BOLADA_24
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 0
+        width: 403.2
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b08463b02065fd841835c1f549592b34
+      internalID: 1378880796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BANANITA BOLADA_25
+      rect:
+        serializedVersion: 2
+        x: 2015
+        y: 0
+        width: 403.2
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c4328666cc183419bf033b612f87ca
+      internalID: 196544252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BANANITA BOLADA_26
+      rect:
+        serializedVersion: 2
+        x: 2418
+        y: 0
+        width: 403.2
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7836762531c4d134c91464cb077ed073
+      internalID: 2002206164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BANANITA BOLADA_27
+      rect:
+        serializedVersion: 2
+        x: 2821
+        y: 0
+        width: 403.2
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1198d9ae5b5345745935b8cd59057eea
+      internalID: 255378092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BANANITA BOLADA_28
+      rect:
+        serializedVersion: 2
+        x: 3224
+        y: 0
+        width: 403.2
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3245bc4ced2ca264abee6f524f3ccf07
+      internalID: -1337624185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BANANITA BOLADA_29
+      rect:
+        serializedVersion: 2
+        x: 3627
+        y: 0
+        width: 403.2
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7ee87a86fad1f47bd13324ec203544
+      internalID: 1536248895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BANANITA BOLADA_30
+      rect:
+        serializedVersion: 2
+        x: 4030
+        y: 0
+        width: 403.2
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c37a5e114da8d42a44dc026aadf7f1
+      internalID: -1927825200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BANANITA BOLADA_31
+      rect:
+        serializedVersion: 2
+        x: 4433
+        y: 0
+        width: 403.2
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c081e8c11fb1c2642893dfac587b295e
+      internalID: -1178895094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BANANITA BOLADA_32
+      rect:
+        serializedVersion: 2
+        x: 4836
+        y: 0
+        width: 403.2
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59767fe6f19da2649b5d637d97c57192
+      internalID: 961411130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BANANITA BOLADA_33
+      rect:
+        serializedVersion: 2
+        x: 5239
+        y: 0
+        width: 403.2
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29685f3494d2e7044901559fd58a287e
+      internalID: -821898646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BANANITA BOLADA_34
+      rect:
+        serializedVersion: 2
+        x: 5642
+        y: 0
+        width: 403.2
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071b168f68175364488c142b37994b91
+      internalID: 1806127745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BANANITA BOLADA_35
+      rect:
+        serializedVersion: 2
+        x: 6045
+        y: 0
+        width: 403.2
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd1c85608e0a1b64184d469ef6c89df2
+      internalID: 1432920606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BANANITA BOLADA_0: -1072430730
+      BANANITA BOLADA_1: -1935594935
+      BANANITA BOLADA_10: -490961829
+      BANANITA BOLADA_11: -612843231
+      BANANITA BOLADA_12: 553031103
+      BANANITA BOLADA_13: 133476546
+      BANANITA BOLADA_14: -1628364775
+      BANANITA BOLADA_15: -107933512
+      BANANITA BOLADA_16: -412795445
+      BANANITA BOLADA_17: -1763257563
+      BANANITA BOLADA_18: 178447299
+      BANANITA BOLADA_19: 1305108961
+      BANANITA BOLADA_2: 1473158127
+      BANANITA BOLADA_20: 896809885
+      BANANITA BOLADA_21: -1753491199
+      BANANITA BOLADA_22: 959633644
+      BANANITA BOLADA_23: -1003280076
+      BANANITA BOLADA_24: 1378880796
+      BANANITA BOLADA_25: 196544252
+      BANANITA BOLADA_26: 2002206164
+      BANANITA BOLADA_27: 255378092
+      BANANITA BOLADA_28: -1337624185
+      BANANITA BOLADA_29: 1536248895
+      BANANITA BOLADA_3: 1576360441
+      BANANITA BOLADA_30: -1927825200
+      BANANITA BOLADA_31: -1178895094
+      BANANITA BOLADA_32: 961411130
+      BANANITA BOLADA_33: -821898646
+      BANANITA BOLADA_34: 1806127745
+      BANANITA BOLADA_35: 1432920606
+      BANANITA BOLADA_4: 140670697
+      BANANITA BOLADA_5: -949841002
+      BANANITA BOLADA_6: -523670139
+      BANANITA BOLADA_7: 1273862682
+      BANANITA BOLADA_8: -1035735628
+      BANANITA BOLADA_9: 371993474
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
