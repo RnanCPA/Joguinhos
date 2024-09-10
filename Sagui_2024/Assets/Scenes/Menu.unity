@@ -140,7 +140,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &59912761
 RectTransform:
   m_ObjectHideFlags: 0
@@ -689,6 +689,7 @@ MonoBehaviour:
   TelaJogo: {fileID: 0}
   TelaPause: {fileID: 0}
   TelaOver: {fileID: 0}
+  TelaFinish: {fileID: 0}
 --- !u!4 &321585890
 Transform:
   m_ObjectHideFlags: 0
@@ -918,7 +919,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1245489513
 RectTransform:
   m_ObjectHideFlags: 0

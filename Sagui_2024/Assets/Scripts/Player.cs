@@ -12,6 +12,8 @@ public class Player : MonoBehaviour
     bool PodePular = true;
 
     public float moedas = 0;
+    public float TempoVivo = 0;
+    public bool Vivo = true;
 
     // Start is called before the first frame update
     void Start()
@@ -27,6 +29,7 @@ public class Player : MonoBehaviour
         {
             Pular();
             Pause();
+            PassarFase();
         }
     }
 
@@ -55,6 +58,7 @@ public class Player : MonoBehaviour
             gc.Vidas--;
             if(gc.Vidas <= 0)
             {
+                Vivo = false;
                 gc.GameOver();
             }
         }
@@ -68,7 +72,6 @@ public class Player : MonoBehaviour
             Destroy(colisao.gameObject);
         }
 
-
         if(colisao.gameObject.tag == "Vida")
         {
             if(gc.Vidas < 3)
@@ -80,12 +83,23 @@ public class Player : MonoBehaviour
 
     }
 
-
     public void Pause()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             gc.Pausar();
+        }
+    }
+
+    public void PassarFase()
+    {
+        if(Vivo == true)
+        {
+            TempoVivo += Time.deltaTime;
+            if(TempoVivo >= 200f)
+            {
+                gc.TerminarFase();
+            }
         }
     }
 
