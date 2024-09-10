@@ -68,11 +68,4 @@ public class GameController : MonoBehaviour
         TelaOver.SetActive(true);
     }
 
-    public void TerminarFase()
-    {
-        TelaJogo.SetActive(false);
-        GameLigado = false;
-        TelaFinish.SetActive(true);
-    }
-
 }
