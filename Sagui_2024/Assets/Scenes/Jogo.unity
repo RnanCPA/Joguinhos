@@ -289,7 +289,6 @@ MonoBehaviour:
   TelaJogo: {fileID: 1963908044}
   TelaPause: {fileID: 1521164282}
   TelaOver: {fileID: 794750781}
-  TelaFinish: {fileID: 1729096260}
 --- !u!4 &40288983
 Transform:
   m_ObjectHideFlags: 0
