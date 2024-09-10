@@ -13,7 +13,6 @@ public class GameController : MonoBehaviour
     public GameObject TelaJogo;
     public GameObject TelaPause;
     public GameObject TelaOver;
-    public GameObject TelaFinish;
 
     // Start is called before the first frame update
     void Start()
