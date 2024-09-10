@@ -564,7 +564,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &135022864
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1875,7 +1875,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &999768215
 Transform:
   m_ObjectHideFlags: 0
@@ -2634,7 +2634,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.11319536, y: -0.106536865}
+  m_Offset: {x: -0.11319536, y: -0.15050733}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2645,7 +2645,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.3209893, y: 1.1478662}
+  m_Size: {x: 1.3209893, y: 1.2358072}
   m_EdgeRadius: 0
 --- !u!114 &1271883492
 MonoBehaviour:
@@ -3647,7 +3647,7 @@ GameObject:
   - component: {fileID: 1807901875}
   - component: {fileID: 1807901874}
   m_Layer: 0
-  m_Name: chao do convento
+  m_Name: Chao
   m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3685,7 +3685,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.1071288}
+  m_Offset: {x: 0, y: -0.13688323}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -3696,7 +3696,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 16.302, y: 1.7996124}
+  m_Size: {x: 16.302, y: 1.7401035}
   m_EdgeRadius: 0
 --- !u!50 &1807901875
 Rigidbody2D:
@@ -3765,7 +3765,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: dc2788f65d4f6184f9df392c3fa00bdb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3786,8 +3786,8 @@ Transform:
   m_GameObject: {fileID: 1807901873}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.0881, y: -5.26, z: 0}
-  m_LocalScale: {x: 2.5240765, y: 1, z: 1}
+  m_LocalPosition: {x: 0.42, y: -5.26, z: 0}
+  m_LocalScale: {x: 1.6500001, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -3940,7 +3940,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1866120625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3992,7 +3992,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1907218735
 MonoBehaviour:
   m_ObjectHideFlags: 0
