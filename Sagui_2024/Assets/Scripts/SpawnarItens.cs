@@ -29,12 +29,16 @@ public class SpawnarItens : MonoBehaviour
     {
         Timer += Time.deltaTime;
 
-        if (Timer > 4.5f)
+        if (Timer > 5f)
         {
-            int randomI = Random.Range(0, Itens.Count);
-            GameObject Vaca = Instantiate(Itens[randomI], transform.position,Quaternion.identity);
+            int sorteio = Random.Range(0, 10);
+            if(sorteio <= 4)
+            {
+                int randomI = Random.Range(0, Itens.Count);
+                GameObject item = Instantiate(Itens[randomI], transform.position, Quaternion.identity);
+            }
 
-            Timer = 0;
+            Timer = 0;  
         }
     }
 
