@@ -2805,7 +2805,7 @@ Transform:
   m_GameObject: {fileID: 1302847853}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 23.56, y: -5.26, z: 0}
+  m_LocalPosition: {x: 23.56, y: -5, z: 0}
   m_LocalScale: {x: 1.6500001, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2949,7 +2949,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Meutempo: 0
   irmao: {fileID: 1807901873}
-  ajuste: 0.4
+  ajuste: 0.5
 --- !u!1 &1336079295
 GameObject:
   m_ObjectHideFlags: 0
@@ -3961,7 +3961,7 @@ Transform:
   m_GameObject: {fileID: 1807901873}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.42, y: -5.26, z: 0}
+  m_LocalPosition: {x: 0.42, y: -5, z: 0}
   m_LocalScale: {x: 1.6500001, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3981,7 +3981,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Meutempo: 0
   irmao: {fileID: 1302847853}
-  ajuste: 0.4
+  ajuste: 0.5
 --- !u!1 &1852469611
 GameObject:
   m_ObjectHideFlags: 0
@@ -4130,7 +4130,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1866120625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4160,7 +4160,7 @@ Transform:
   m_GameObject: {fileID: 1866120624}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.05, y: -3.5, z: 0}
+  m_LocalPosition: {x: 13.96, y: -3.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
