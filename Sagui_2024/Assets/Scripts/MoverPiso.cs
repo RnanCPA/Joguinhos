@@ -32,8 +32,7 @@ public class MoverPiso : MonoBehaviour
 
         if(Meutempo > 0.1f)
         {
-            Vector2 NewPos = new Vector2(transform.position.x - 1f, transform.position.y);
-            transform.position = Vector2.MoveTowards(transform.position, NewPos, ajuste);
+            transform.position = transform.position + new Vector3(ajuste, 0, 0);
             Meutempo = 0;
         }
 
