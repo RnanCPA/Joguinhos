@@ -17,7 +17,17 @@ public class GameController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        GameLigado = false;
+        Time.timeScale = 0;
+
+        if (PlayerPrefs.HasKey("Moeda"))
+        {
+            moedas = PlayerPrefs.GetFloat("Moeda");
+        }
+        else
+        {
+            PlayerPrefs.SetFloat("Moeda", 0);
+        }
     }
 
     // Update is called once per frame
