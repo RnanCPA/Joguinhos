@@ -30,12 +30,4 @@ public class MoverItens : MonoBehaviour
         transform.position = Vector2.MoveTowards(transform.position, NewPos, Time.deltaTime * speed);
     }
 
-    public void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.tag == "Finish")
-        {
-            Debug.Log("Tocou barreira");
-            Destroy(this.gameObject);
-        }
-    }
 }
