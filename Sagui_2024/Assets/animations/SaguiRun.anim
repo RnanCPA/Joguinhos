@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: SaguiMove
+  m_Name: SaguiRun
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -33,9 +33,15 @@ AnimationClip:
     - time: 0.41666666
       value: {fileID: 238540098, guid: 80ff1c72f9de153419b921fe099bcfc3, type: 3}
     - time: 0.5
-      value: {fileID: 846085194, guid: e4ffada1f07dc7e40a95ee0235c56e97, type: 3}
+      value: {fileID: 238540098, guid: 80ff1c72f9de153419b921fe099bcfc3, type: 3}
     - time: 0.5833333
       value: {fileID: -527969469, guid: e4ffada1f07dc7e40a95ee0235c56e97, type: 3}
+    - time: 0.6666667
+      value: {fileID: -747713935, guid: 80ff1c72f9de153419b921fe099bcfc3, type: 3}
+    - time: 0.75
+      value: {fileID: -1332920661, guid: 80ff1c72f9de153419b921fe099bcfc3, type: 3}
+    - time: 0.8333333
+      value: {fileID: -1778888080, guid: 32215fd8b8d80d04ca48e20cea66ee60, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -64,14 +70,17 @@ AnimationClip:
     - {fileID: -1332920661, guid: 80ff1c72f9de153419b921fe099bcfc3, type: 3}
     - {fileID: -747713935, guid: 80ff1c72f9de153419b921fe099bcfc3, type: 3}
     - {fileID: 238540098, guid: 80ff1c72f9de153419b921fe099bcfc3, type: 3}
-    - {fileID: 846085194, guid: e4ffada1f07dc7e40a95ee0235c56e97, type: 3}
+    - {fileID: 238540098, guid: 80ff1c72f9de153419b921fe099bcfc3, type: 3}
     - {fileID: -527969469, guid: e4ffada1f07dc7e40a95ee0235c56e97, type: 3}
+    - {fileID: -747713935, guid: 80ff1c72f9de153419b921fe099bcfc3, type: 3}
+    - {fileID: -1332920661, guid: 80ff1c72f9de153419b921fe099bcfc3, type: 3}
+    - {fileID: -1778888080, guid: 32215fd8b8d80d04ca48e20cea66ee60, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.6666666
+    m_StopTime: 0.9166666
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
