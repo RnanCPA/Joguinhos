@@ -6,6 +6,7 @@ public class Player : MonoBehaviour
 {
     private GameController gc;
     private Animator anim;
+    private Animation Animation;
     Rigidbody2D rb;
 
     public float JumpForce;
@@ -25,22 +26,30 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(gc.GameLigado == true)
-        {
-            Pular();
-            Pause();
-        }
+        AnimController();
     }
 
-    public void Pular()
+    public void Pular(string acao)
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if(acao == "pular")
         {
-            if(PodePular == true)
+            if (PodePular == true)
             {
                 PodePular = false;
                 rb.velocity = new Vector2(rb.velocity.x, JumpForce);
             }
+        } 
+    }
+
+    public void AnimController()
+    {
+        if (gc.GameLigado == false)
+        {
+            anim.speed = 0;
+        }
+        if (gc.GameLigado == true)
+        {
+            anim.speed = 1;
         }
     }
 
@@ -79,14 +88,6 @@ public class Player : MonoBehaviour
             Destroy(colisao.gameObject);
         }
 
-    }
-
-    public void Pause()
-    {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            gc.Pausar();
-        }
     }
 
 }
