@@ -35,9 +35,18 @@ public class SpawnarItens : MonoBehaviour
             if(sorteio <= 4)
             {
                 int randomI = Random.Range(0, Itens.Count);
-                GameObject item = Instantiate(Itens[randomI], transform.position, Quaternion.identity);
+                if (randomI == 2)
+                {
+                    if (gc.Vidas < 3)
+                    {
+                        GameObject item = Instantiate(Itens[randomI], transform.position, Quaternion.identity);
+                    }
+                }
+                else
+                {
+                    GameObject item = Instantiate(Itens[randomI], transform.position, Quaternion.identity);
+                }
             }
-
             Timer = 0;  
         }
     }

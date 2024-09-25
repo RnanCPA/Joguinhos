@@ -898,6 +898,7 @@ MonoBehaviour:
   Itens:
   - {fileID: 8672602674796127008, guid: d3cee9db47bbd4d478016b0ec811c9a4, type: 3}
   - {fileID: 7346837603541210256, guid: 7c4fde50c35e57a43bcc3a633a5d0cad, type: 3}
+  - {fileID: 4439237910390856387, guid: 1f8f1335ea3a60d45a6ccd08a5be5876, type: 3}
   Timer: 0
 --- !u!4 &135022865
 Transform:
