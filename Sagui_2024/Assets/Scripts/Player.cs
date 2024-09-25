@@ -87,7 +87,15 @@ public class Player : MonoBehaviour
             }
             Destroy(colisao.gameObject);
         }
-
+        if (colisao.gameObject.tag == "Inimigo")
+        {
+            Destroy(colisao.gameObject);
+            gc.Vidas--;
+            if (gc.Vidas <= 0)
+            {
+                gc.GameOver();
+            }
+        }
     }
 
 }
