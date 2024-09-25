@@ -4505,7 +4505,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Meutempo: 0
   irmao: {fileID: 1807901873}
-  ajuste: -0.4
+  ajuste: -0.1
 --- !u!1 &1307564558
 GameObject:
   m_ObjectHideFlags: 0
@@ -6034,7 +6034,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Meutempo: 0
   irmao: {fileID: 1302847853}
-  ajuste: -0.4
+  ajuste: -0.1
 --- !u!1 &1817218145
 GameObject:
   m_ObjectHideFlags: 0

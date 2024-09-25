@@ -30,15 +30,15 @@ public class MoverPiso : MonoBehaviour
     {
         Meutempo += Time.deltaTime;
 
-        if(Meutempo > 0.1f)
+        if(Meutempo > 0.01f)
         {
             transform.position = transform.position + new Vector3(ajuste, 0, 0);
             Meutempo = 0;
         }
 
-        if(transform.position.x < -26)
+        if(transform.position.x < -25)
         {
-            transform.position = new Vector3(irmao.transform.position.x + 22, transform.position.y, 0);
+            transform.position = new Vector3(irmao.transform.position.x + 23, transform.position.y, 0);
         }
     }
 
