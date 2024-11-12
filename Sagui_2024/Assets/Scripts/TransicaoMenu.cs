@@ -32,8 +32,8 @@ public class TransicaoMenu : MonoBehaviour
 
     public void CarregarJogo()
     {
-        TelaPreta.SetActive(false);
         TelaJogo.SetActive(true);
+        TelaPreta.SetActive(false);
         gc.GameLigado = true;
     }
 
