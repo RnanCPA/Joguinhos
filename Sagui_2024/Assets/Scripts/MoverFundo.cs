@@ -20,7 +20,7 @@ public class MoverFundo : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (gc.GameLigado == true)
         {
@@ -30,7 +30,7 @@ public class MoverFundo : MonoBehaviour
 
     public void Movimento()
     {
-        Meutempo += Time.deltaTime;
+        Meutempo += Time.fixedDeltaTime;
 
         if (Meutempo > 0.1f)
         {

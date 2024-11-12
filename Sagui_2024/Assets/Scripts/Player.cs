@@ -23,10 +23,28 @@ public class Player : MonoBehaviour
         anim = GetComponent<Animator>();
     }
 
+    private void Update()
+    {
+        Pulo();
+    }
+
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         AnimController();
+
+    }
+
+    public void Pulo()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            if (PodePular == true)
+            {
+                PodePular = false;
+                rb.velocity = new Vector2(rb.velocity.x, JumpForce);
+            }
+        }
     }
 
     public void Pular(string acao)

@@ -18,7 +18,7 @@ public class MoverPiso : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if(gc.GameLigado == true)
         {
@@ -28,7 +28,7 @@ public class MoverPiso : MonoBehaviour
 
     public void Movimento()
     {
-        Meutempo += Time.deltaTime;
+        Meutempo += Time.fixedDeltaTime;
 
         if(Meutempo > 0.01f)
         {

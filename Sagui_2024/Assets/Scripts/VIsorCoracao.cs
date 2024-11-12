@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Unity.UI;
+using UnityEngine.UI;
 
 public class VIsorCoracao : MonoBehaviour
 {
@@ -17,7 +17,7 @@ public class VIsorCoracao : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         float TamanhoAjustado = gc.Vidas * 100;
         rtImagem.sizeDelta = new Vector2(TamanhoAjustado, 100);

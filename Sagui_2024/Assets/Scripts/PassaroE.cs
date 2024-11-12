@@ -14,16 +14,21 @@ public class PassaroE : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+
+
+    private void FixedUpdate()
     {
-        Mover();
+        if (gc.GameLigado == true)
+        {
+            Mover();
+        }
     }
 
     public void Mover()
     {
         Vector2 NewPos = new Vector2(transform.position.x - 1f, transform.position.y);
 
-        transform.position = Vector2.MoveTowards(transform.position, NewPos, Time.deltaTime * speed);
+        transform.position = Vector2.MoveTowards(transform.position, NewPos, Time.fixedDeltaTime * speed);
     }
 
     public void OnTriggerEnter2D(Collider2D collision)

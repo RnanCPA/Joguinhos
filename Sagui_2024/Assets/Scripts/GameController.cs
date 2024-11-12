@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class GameController : MonoBehaviour
 {
 
-    public bool GameLigado = true;
+    public bool GameLigado = false;
     public float Vidas = 3;
     public float moedas = 0;
 
@@ -17,6 +17,8 @@ public class GameController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        GameLigado = false;
+        
 
         if (PlayerPrefs.HasKey("Moeda"))
         {
@@ -36,7 +38,7 @@ public class GameController : MonoBehaviour
 
     public void IniciarJogo()
     {
-        SceneManager.LoadScene(1);
+        
     }
 
     public void Reiniciar()

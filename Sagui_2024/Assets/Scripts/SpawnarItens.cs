@@ -17,7 +17,7 @@ public class SpawnarItens : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if(gc.GameLigado == true)
         {
@@ -27,7 +27,7 @@ public class SpawnarItens : MonoBehaviour
 
     public void Spawnar()
     {
-        Timer += Time.deltaTime;
+        Timer += Time.fixedDeltaTime;
 
         if (Timer > 5f)
         {

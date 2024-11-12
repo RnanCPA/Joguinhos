@@ -16,9 +16,10 @@ public class Inimigo : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+
+    private void FixedUpdate()
     {
-        if(gc.GameLigado == true)
+        if (gc.GameLigado == true)
         {
             Mover();
         }
@@ -28,7 +29,7 @@ public class Inimigo : MonoBehaviour
     {
         Vector2 NewPos = new Vector2(transform.position.x - 1f, transform.position.y);
 
-        transform.position = Vector2.MoveTowards(transform.position, NewPos, Speed);
+        transform.position = Vector2.MoveTowards(transform.position, NewPos, Time.fixedDeltaTime * Speed);
     }
 
 }

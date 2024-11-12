@@ -16,7 +16,7 @@ public class MoedasVisor : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         meuTexto.text = gc.moedas.ToString();
     }

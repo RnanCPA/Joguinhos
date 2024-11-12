@@ -16,7 +16,7 @@ public class SpawnarInimigo : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if(gc.GameLigado == true)
         {
@@ -26,9 +26,9 @@ public class SpawnarInimigo : MonoBehaviour
 
     public void Spawnar()
     {
-        Timer += Time.deltaTime;
+        Timer += Time.fixedDeltaTime;
 
-        if(Timer > 5f)
+        if(Timer > 4f)
         {
             int indicador = Random.Range(0, Inimigos.Count);
 

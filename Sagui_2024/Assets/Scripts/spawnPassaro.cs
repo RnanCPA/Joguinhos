@@ -16,7 +16,7 @@ public class spawnPassaro : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (gc.GameLigado == true)
         {
@@ -26,7 +26,7 @@ public class spawnPassaro : MonoBehaviour
 
     public void Spawnar()
     {
-        Timer += Time.deltaTime;
+        Timer += Time.fixedDeltaTime;
 
         if (Timer > 10f)
         {
