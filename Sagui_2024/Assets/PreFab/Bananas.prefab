@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4210756224741129182}
   - component: {fileID: 3372307432157282883}
   - component: {fileID: 4715201265044961833}
+  - component: {fileID: 9082536507176332825}
   m_Layer: 0
   m_Name: Banana
   m_TagString: Moeda
@@ -170,6 +171,19 @@ CircleCollider2D:
   m_Offset: {x: -0.026334286, y: -0.05}
   serializedVersion: 2
   m_Radius: 0.14498806
+--- !u!114 &9082536507176332825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 516071007493813201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00ee39178f8ee9f45a9cd540e8b0749b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
 --- !u!1 &3982135755607329006
 GameObject:
   m_ObjectHideFlags: 0
@@ -183,6 +197,7 @@ GameObject:
   - component: {fileID: 4261403983749954221}
   - component: {fileID: 4164569938527720572}
   - component: {fileID: 8345473498918409195}
+  - component: {fileID: 1312587522405824866}
   m_Layer: 0
   m_Name: Banana (1)
   m_TagString: Moeda
@@ -340,6 +355,19 @@ CircleCollider2D:
   m_Offset: {x: -0.026334286, y: -0.05}
   serializedVersion: 2
   m_Radius: 0.14498806
+--- !u!114 &1312587522405824866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3982135755607329006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00ee39178f8ee9f45a9cd540e8b0749b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
 --- !u!1 &4389882984364480581
 GameObject:
   m_ObjectHideFlags: 0
@@ -353,6 +381,7 @@ GameObject:
   - component: {fileID: 9043493755614994544}
   - component: {fileID: 954492531024566193}
   - component: {fileID: 2777692172692752977}
+  - component: {fileID: 1334706525617689388}
   m_Layer: 0
   m_Name: Banana (2)
   m_TagString: Moeda
@@ -510,6 +539,19 @@ CircleCollider2D:
   m_Offset: {x: -0.026334286, y: -0.05}
   serializedVersion: 2
   m_Radius: 0.14498806
+--- !u!114 &1334706525617689388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4389882984364480581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00ee39178f8ee9f45a9cd540e8b0749b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
 --- !u!1 &7346837603541210256
 GameObject:
   m_ObjectHideFlags: 0
@@ -522,6 +564,7 @@ GameObject:
   - component: {fileID: 742187455420639363}
   - component: {fileID: 7428853965750891793}
   - component: {fileID: 1750137405654483464}
+  - component: {fileID: 4981885484616520390}
   m_Layer: 0
   m_Name: Bananas
   m_TagString: Moeda
@@ -632,3 +675,24 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 6
+--- !u!95 &4981885484616520390
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7346837603541210256}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6f081afdcaaa5f04dbece63ea04ca892, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

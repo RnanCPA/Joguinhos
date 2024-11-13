@@ -12,6 +12,7 @@ public class Passaro : MonoBehaviour
     void Start()
     {
         gc = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -22,6 +23,7 @@ public class Passaro : MonoBehaviour
         {
             Mover();
         }
+        AnimController();
     }
 
     public void Mover()
@@ -29,6 +31,18 @@ public class Passaro : MonoBehaviour
         Vector2 NewPos = new Vector2(transform.position.x + 1f, transform.position.y);
 
         transform.position = Vector2.MoveTowards(transform.position, NewPos, Time.fixedDeltaTime * speed);
+    }
+
+    public void AnimController()
+    {
+        if (gc.GameLigado == false)
+        {
+            anim.speed = 0;
+        }
+        if (gc.GameLigado == true)
+        {
+            anim.speed = 1;
+        }
     }
 
     public void OnTriggerEnter2D(Collider2D collision)
