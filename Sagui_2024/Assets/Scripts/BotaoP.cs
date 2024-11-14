@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class BotaoP : Button
 {
-
     private GameObject player;
+
     // Start is called before the first frame update
     void Start()
     {

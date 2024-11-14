@@ -10,7 +10,7 @@ public class Player : MonoBehaviour
     Rigidbody2D rb;
 
     public float JumpForce;
-    bool PodePular = true;
+    public bool PodePular = true;
 
     public float moedas = 0;
 
@@ -25,38 +25,31 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-        Pulo();
+        
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
+
         AnimController();
 
     }
 
-    public void Pulo()
-    {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            if (PodePular == true)
-            {
-                PodePular = false;
-                rb.velocity = new Vector2(rb.velocity.x, JumpForce);
-            }
-        }
-    }
 
     public void Pular(string acao)
     {
         if(acao == "pular")
         {
-            if (PodePular == true)
+            if(gc.GameLigado == true)
             {
-                PodePular = false;
-                rb.velocity = new Vector2(rb.velocity.x, JumpForce);
+                if (PodePular == true)
+                {
+                    PodePular = false;
+                    rb.velocity = new Vector2(rb.velocity.x, JumpForce);
+                }
             }
-        } 
+        }
     }
 
     public void AnimController()

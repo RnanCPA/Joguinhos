@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Net.NetworkInformation;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
 
+    public Animator batataFrita;
     public bool GameLigado = false;
     public float Vidas = 3;
     public float moedas = 0;
@@ -62,6 +64,7 @@ public class GameController : MonoBehaviour
     {
         TelaPause.SetActive(false);
         GameLigado = true;
+        Time.timeScale = 1;
         TelaJogo.SetActive(true);
     }
 
