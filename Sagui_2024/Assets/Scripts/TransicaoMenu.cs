@@ -12,7 +12,7 @@ public class TransicaoMenu : MonoBehaviour
 
     public GameObject TelaPreta;
     public GameObject TelaJogo;
-
+    public GameObject audio;
     // Start is called before the first frame update
     void Start()
     {
@@ -34,6 +34,7 @@ public class TransicaoMenu : MonoBehaviour
     {
         TelaJogo.SetActive(true);
         TelaPreta.SetActive(false);
+        audio.SetActive(true);
         gc.GameLigado = true;
     }
 
