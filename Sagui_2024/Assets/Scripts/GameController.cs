@@ -10,7 +10,6 @@ public class GameController : MonoBehaviour
     public Animator batataFrita;
     public bool GameLigado = false;
     public float Vidas = 3;
-    public float moedas = 0;
 
     public GameObject TelaJogo;
     public GameObject TelaPause;
@@ -20,16 +19,6 @@ public class GameController : MonoBehaviour
     void Start()
     {
         GameLigado = false;
-        
-
-        if (PlayerPrefs.HasKey("Moeda"))
-        {
-            moedas = PlayerPrefs.GetFloat("Moeda");
-        }
-        else
-        {
-            PlayerPrefs.SetFloat("Moeda", 0);
-        }
     }
 
     // Update is called once per frame

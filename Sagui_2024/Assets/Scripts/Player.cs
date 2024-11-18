@@ -27,7 +27,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     private void FixedUpdate()
     {
-        AnimController();
+        AnimController(); 
     }
 
 
@@ -47,17 +47,6 @@ public class Player : MonoBehaviour
         }
     }
 
-    public void Pulo()
-    {
-        if (PodePular == true)
-        {
-            if (Input.GetKeyDown(KeyCode.Space))
-            {
-                PodePular = false;
-                rb.velocity = new Vector2(rb.velocity.x, JumpForce);
-            }
-        }
-    }
 
     public void AnimController()
     {
