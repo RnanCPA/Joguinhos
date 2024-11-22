@@ -29,10 +29,10 @@ public class SpawnarItens : MonoBehaviour
     {
         Timer += Time.fixedDeltaTime;
 
-        if (Timer > 5f)
+        if (Timer > 4f)
         {
             int sorteio = Random.Range(0, 10);
-            if(sorteio <= 4)
+            if(sorteio <= 6)
             {
                 int randomI = Random.Range(0, Itens.Count);
                 if (randomI == 2)
@@ -50,5 +50,4 @@ public class SpawnarItens : MonoBehaviour
             Timer = 0;  
         }
     }
-
 }

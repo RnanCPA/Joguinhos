@@ -28,7 +28,7 @@ public class SpawnarInimigo : MonoBehaviour
     {
         Timer += Time.fixedDeltaTime;
 
-        if(Timer > 4f)
+        if(Timer > 3f)
         {
             int indicador = Random.Range(0, Inimigos.Count);
 
