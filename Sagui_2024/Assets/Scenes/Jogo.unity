@@ -4685,6 +4685,7 @@ MonoBehaviour:
   JumpForce: 11
   PodePular: 1
   moedas: 0
+  SomPulo: {fileID: 1969939745161772243, guid: f6d658cf60d24584c8784f5394c5671a, type: 3}
 --- !u!1 &1072382826
 GameObject:
   m_ObjectHideFlags: 0

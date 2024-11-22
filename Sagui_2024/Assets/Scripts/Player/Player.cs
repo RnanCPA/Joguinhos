@@ -14,7 +14,7 @@ public class Player : MonoBehaviour
 
     public float moedas = 0;
 
-
+    public GameObject SomPulo;
     // Start is called before the first frame update
     void Start()
     {
@@ -40,6 +40,8 @@ public class Player : MonoBehaviour
             {
                 if (PodePular == true)
                 {
+                    GameObject som = Instantiate(SomPulo, transform.position, Quaternion.identity);
+                    Destroy(som, 0.6f);
                     PodePular = false;
                     rb.velocity = new Vector2(rb.velocity.x, JumpForce);
                 }

@@ -23,7 +23,7 @@ public class efeitoSom : MonoBehaviour
         if(collision.gameObject.tag == "Player")
         {
             GameObject som = Instantiate(Audio, transform.position, Quaternion.identity);
-            Destroy(som, 1f);
+            Destroy(som, 0.6f);
         }
     }
 
@@ -32,7 +32,7 @@ public class efeitoSom : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             GameObject som = Instantiate(Audio, transform.position, Quaternion.identity);
-            Destroy(som, 1f);
+            Destroy(som, 0.6f);
         }
     }
 }
