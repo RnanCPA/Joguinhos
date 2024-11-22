@@ -45,5 +45,4 @@ public class MoverItens : MonoBehaviour
             anim.speed = 1;
         }
     }
-
 }

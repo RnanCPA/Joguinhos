@@ -394,7 +394,6 @@ MonoBehaviour:
   batataFrita: {fileID: 0}
   GameLigado: 0
   Vidas: 3
-  moedas: 0
   TelaJogo: {fileID: 1963908044}
   TelaPause: {fileID: 1521164282}
   TelaOver: {fileID: 794750781}

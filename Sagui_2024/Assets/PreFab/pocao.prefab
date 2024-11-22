@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 788468633557585906}
   - component: {fileID: 7218705951678126034}
   - component: {fileID: 1195680195500144242}
+  - component: {fileID: 1354830126775486321}
   m_Layer: 0
   m_Name: pocao
   m_TagString: Vida
@@ -184,3 +185,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 6
+--- !u!114 &1354830126775486321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4439237910390856387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 845c57082f9809146b70660fe35a2ec8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Audio: {fileID: 8420522173713366376, guid: 8b3935985ae898741b9daca07895f2e2, type: 3}
