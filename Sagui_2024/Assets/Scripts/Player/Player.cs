@@ -70,6 +70,7 @@ public class Player : MonoBehaviour
         if(collision.gameObject.tag == "Inimigo")
         {
             Destroy(collision.gameObject);
+            anim.SetTrigger("dano");
             gc.Vidas--;
             if(gc.Vidas <= 0)
             {
@@ -98,6 +99,7 @@ public class Player : MonoBehaviour
         {
             Destroy(colisao.gameObject);
             gc.Vidas--;
+            anim.SetTrigger("dano");
             if (gc.Vidas <= 0)
             {
                 gc.GameOver();

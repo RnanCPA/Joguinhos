@@ -2843,11 +2843,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 4318273035679394662, guid: 981c92cfe4a1f7747a4f82eb0e4a9589, type: 2}
-  m_audioClip: {fileID: 8300000, guid: a053c571a0b607d4ea45d6c73adf828b, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 7697c243b610a344d819f186ad751d8f, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0

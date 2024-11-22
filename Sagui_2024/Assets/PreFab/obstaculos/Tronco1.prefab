@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8085366414324707911}
   - component: {fileID: 4021544059181050759}
   - component: {fileID: 2242164530874707436}
+  - component: {fileID: 7442274048336464821}
   m_Layer: 0
   m_Name: Tronco1
   m_TagString: Inimigo
@@ -184,3 +185,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 10
+--- !u!114 &7442274048336464821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7482698114338539664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 845c57082f9809146b70660fe35a2ec8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Audio: {fileID: 2616356187732721407, guid: 4006c8bdd3fed854ca1d46948df85a4d, type: 3}

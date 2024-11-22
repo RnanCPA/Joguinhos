@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: -1432161870765843139}
   - component: {fileID: 8202106773365090399}
   - component: {fileID: 7432946866937125743}
+  - component: {fileID: 4667723289370144680}
   m_Layer: 0
   m_Name: pedra2
   m_TagString: Inimigo
@@ -194,3 +195,16 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &4667723289370144680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6345162969881602312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 845c57082f9809146b70660fe35a2ec8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Audio: {fileID: 8419780845294316619, guid: 4df8ceb3893c6fb4cac3c8c83739ae1d, type: 3}
