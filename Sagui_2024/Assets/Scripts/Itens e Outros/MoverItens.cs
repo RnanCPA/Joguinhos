@@ -31,7 +31,7 @@ public class MoverItens : MonoBehaviour
     {
         Vector2 NewPos = new Vector2(transform.position.x - 1f, transform.position.y);
 
-        transform.position = Vector2.MoveTowards(transform.position, NewPos, Time.fixedDeltaTime * speed);
+        transform.position = Vector2.MoveTowards(transform.position, NewPos, Time.fixedDeltaTime * speed * gc.AllSpeed);
     }
 
     public void AnimController()

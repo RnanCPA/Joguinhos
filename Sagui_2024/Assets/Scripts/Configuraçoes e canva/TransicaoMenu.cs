@@ -11,7 +11,6 @@ public class TransicaoMenu : MonoBehaviour
     private GameController gc;
 
     public GameObject TelaPreta;
-    public GameObject TelaJogo;
     public GameObject audio;
     public GameObject Contagem;
 
@@ -34,7 +33,6 @@ public class TransicaoMenu : MonoBehaviour
 
     public void CarregarJogo()
     {
-        TelaJogo.SetActive(true);
         Contagem.SetActive(true);
         TelaPreta.SetActive(false);
         audio.SetActive(true);
