@@ -13,6 +13,8 @@ public class TransicaoMenu : MonoBehaviour
     public GameObject TelaPreta;
     public GameObject TelaJogo;
     public GameObject audio;
+    public GameObject Contagem;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -33,9 +35,9 @@ public class TransicaoMenu : MonoBehaviour
     public void CarregarJogo()
     {
         TelaJogo.SetActive(true);
+        Contagem.SetActive(true);
         TelaPreta.SetActive(false);
         audio.SetActive(true);
-        gc.GameLigado = true;
     }
 
 }

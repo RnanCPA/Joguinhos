@@ -15,6 +15,8 @@ public class GameController : MonoBehaviour
     public GameObject TelaPause;
     public GameObject TelaOver;
 
+    public float AllSpeed = 1f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,9 +24,13 @@ public class GameController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+
+    private void FixedUpdate()
     {
-        
+        if(GameLigado == true)
+        {
+            MaisVelocidade();
+        }
     }
 
     public void IniciarJogo()
@@ -67,6 +73,17 @@ public class GameController : MonoBehaviour
         TelaJogo.SetActive(false);
         GameLigado = false;
         TelaOver.SetActive(true);
+    }
+
+    public void MaisVelocidade()
+    {
+        float Tempo = +Time.fixedDeltaTime;
+
+        if(Tempo >= 10f)
+        {
+            AllSpeed = AllSpeed + 0.5f;
+            Tempo = 0;
+        }
     }
 
 }
