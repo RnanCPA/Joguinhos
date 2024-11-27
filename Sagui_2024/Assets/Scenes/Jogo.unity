@@ -398,6 +398,7 @@ MonoBehaviour:
   TelaPause: {fileID: 1521164282}
   TelaOver: {fileID: 794750781}
   AllSpeed: 1
+  Tempo: 0
 --- !u!4 &40288983
 Transform:
   m_ObjectHideFlags: 0
@@ -687,7 +688,7 @@ Transform:
   m_GameObject: {fileID: 84739306}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.0300572, y: 1.3781145, z: 1.4059606}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -8333,7 +8334,7 @@ Transform:
   m_GameObject: {fileID: 1866120624}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15, y: -3.2, z: 0}
+  m_LocalPosition: {x: 21, y: -3.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

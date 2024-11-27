@@ -16,6 +16,7 @@ public class GameController : MonoBehaviour
     public GameObject TelaOver;
 
     public float AllSpeed = 1f;
+    public float Tempo;
 
     // Start is called before the first frame update
     void Start()
@@ -77,11 +78,11 @@ public class GameController : MonoBehaviour
 
     public void MaisVelocidade()
     {
-        float Tempo = +Time.fixedDeltaTime;
+        Tempo += Time.fixedDeltaTime;
 
-        if(Tempo >= 10f)
+        if(Tempo >= 15f)
         {
-            AllSpeed = AllSpeed + 0.5f;
+            AllSpeed = AllSpeed + 0.1f;
             Tempo = 0;
         }
     }
