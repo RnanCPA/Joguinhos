@@ -32,7 +32,7 @@ public class SpawnarItens : MonoBehaviour
         if (Timer > 4f)
         {
             int sorteio = Random.Range(0, 10);
-            if(sorteio <= 6)
+            if(sorteio <= 8)
             {
                 int randomI = Random.Range(0, Itens.Count);
                 if (randomI == 2)

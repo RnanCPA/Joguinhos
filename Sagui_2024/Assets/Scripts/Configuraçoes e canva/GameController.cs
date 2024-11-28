@@ -79,7 +79,7 @@ public class GameController : MonoBehaviour
     {
         Tempo += Time.fixedDeltaTime;
 
-        if(Tempo >= 15f)
+        if(Tempo >= 20f)
         {
             AllSpeed = AllSpeed + 0.1f;
             Tempo = 0;
