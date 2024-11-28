@@ -9,6 +9,8 @@ public class Inimigo : MonoBehaviour
     private Animator anim;
     public float Speed;
 
+    public bool parado = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -29,9 +31,18 @@ public class Inimigo : MonoBehaviour
 
     public void Mover()
     {
-        Vector2 NewPos = new Vector2(transform.position.x - 1f, transform.position.y);
+        if(parado == false)
+        {
+            Vector2 NewPos = new Vector2(transform.position.x - 1f, transform.position.y);
 
-        transform.position = Vector2.MoveTowards(transform.position, NewPos, Time.fixedDeltaTime * Speed * gc.AllSpeed);
+            transform.position = Vector2.MoveTowards(transform.position, NewPos, Time.fixedDeltaTime * Speed * gc.AllSpeed);
+        }
+        if(parado == true)
+        {
+            Vector2 NewPos = new Vector2(transform.position.x - 1f, transform.position.y);
+
+            transform.position = Vector2.MoveTowards(transform.position, NewPos, Time.fixedDeltaTime * Speed);
+        }
     }
 
     public void AnimController()

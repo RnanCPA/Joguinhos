@@ -118,7 +118,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.043631077, y: -0.10709518}
@@ -146,7 +146,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f689ae0dbb4f6f4ba3f575a32f93c31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 8
+  Speed: 4
+  parado: 1
 --- !u!50 &-2631174067067699167
 Rigidbody2D:
   serializedVersion: 4
