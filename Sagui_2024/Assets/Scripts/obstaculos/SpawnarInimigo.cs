@@ -38,6 +38,7 @@ public class SpawnarInimigo : MonoBehaviour
            Quaternion.identity);
 
             Timer = 0;
+            Destroy(Vaca, 7f);
         }
     }
 

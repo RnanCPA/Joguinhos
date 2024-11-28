@@ -7,7 +7,7 @@ public class Contagem : MonoBehaviour
     private GameController gc;
 
     public GameObject TelaContagem;
-
+    public GameObject TelaJogo;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +23,7 @@ public class Contagem : MonoBehaviour
     public void ComecarJogo()
     {
         TelaContagem.SetActive(false);
+        TelaJogo.SetActive(true);
         gc.GameLigado = true;
     }
 }

@@ -7,7 +7,6 @@ using UnityEngine.SceneManagement;
 public class GameController : MonoBehaviour
 {
 
-    public Animator batataFrita;
     public bool GameLigado = false;
     public float Vidas = 3;
 
