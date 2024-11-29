@@ -31,6 +31,11 @@ public class TransicaoMenu : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
+    public void Fase1()
+    {
+        SceneManager.LoadScene(1);
+    }
+
     public void CarregarJogo()
     {
         Contagem.SetActive(true);
