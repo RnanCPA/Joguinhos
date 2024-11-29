@@ -8,6 +8,7 @@ public class SpawnarInimigo : MonoBehaviour
 
     public List<GameObject> Inimigos;
     public float Timer;
+    public GameObject Chao;
 
     // Start is called before the first frame update
     void Start()
@@ -32,13 +33,24 @@ public class SpawnarInimigo : MonoBehaviour
         {
             int indicador = Random.Range(0, Inimigos.Count);
 
-            Vector2 Pos = new Vector2(transform.position.x, transform.position.y + 1f);
 
-            GameObject Vaca = Instantiate(Inimigos[indicador], Pos,
-           Quaternion.identity);
+            if(Chao.transform.position.x > 9)
+            {
+                Vector2 Pos = new Vector2(Chao.transform.position.x, Chao.transform.position.y+1);
 
-            Timer = 0;
-            Destroy(Vaca, 8f);
+
+                GameObject Vaca = Instantiate(Inimigos[indicador], Pos,
+               Quaternion.identity);
+                if (indicador < 4)
+                {
+                    Vaca.transform.parent = Chao.transform;
+                }
+
+
+                Timer = 0;
+                Destroy(Vaca, 50f);
+            }
+            
         }
     }
 

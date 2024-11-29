@@ -3433,7 +3433,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TelaPreta: {fileID: 726651854}
   audio: {fileID: 688275865}
-  Contagem: {fileID: 0}
+  Contagem: {fileID: 901935233}
 --- !u!1 &733136925
 GameObject:
   m_ObjectHideFlags: 0
@@ -4375,17 +4375,17 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 901935233}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 90}
-  m_LocalScale: {x: 0.00959, y: 0.00959, z: 0.00959}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.0004914, y: 1.0004914, z: 1.0004914}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 496267049}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2027370239}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1920, y: 1043.2654}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &945813244
 GameObject:
@@ -4720,7 +4720,7 @@ MonoBehaviour:
   Contador: 0
   _fase: 3
   TelaJogo: {fileID: 1963908044}
-  TransicaoFases: {fileID: 0}
+  TransicaoFases: {fileID: 1150940886}
 --- !u!4 &1030468783
 Transform:
   m_ObjectHideFlags: 0
@@ -6375,7 +6375,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Meutempo: 0
   irmao: {fileID: 1807901873}
-  ajuste: -0.07
+  ajuste: -0.09
 --- !u!1 &1307564558
 GameObject:
   m_ObjectHideFlags: 0
@@ -8404,7 +8404,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Meutempo: 0
   irmao: {fileID: 1302847853}
-  ajuste: -0.07
+  ajuste: -0.09
 --- !u!1 &1810503506
 GameObject:
   m_ObjectHideFlags: 0
@@ -8895,6 +8895,7 @@ MonoBehaviour:
   - {fileID: 7482698114338539664, guid: f74bf67aecfc9374284c7db427542ef3, type: 3}
   - {fileID: 2174626094790174669, guid: 784e9003ddfa4cb448f249f343179bcc, type: 3}
   Timer: 0
+  Chao: {fileID: 1807901873}
 --- !u!4 &1866120626
 Transform:
   m_ObjectHideFlags: 0
@@ -9612,6 +9613,7 @@ RectTransform:
   - {fileID: 846897924}
   - {fileID: 1150940887}
   - {fileID: 688275866}
+  - {fileID: 901935236}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -9936,7 +9938,6 @@ SceneRoots:
   - {fileID: 40288983}
   - {fileID: 1943736144}
   - {fileID: 2027370239}
-  - {fileID: 901935236}
   - {fileID: 1786538580}
   - {fileID: 1265579809}
   - {fileID: 1866120626}

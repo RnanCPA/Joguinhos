@@ -71,7 +71,8 @@ public class Player : MonoBehaviour
 
         if(collision.gameObject.tag == "Inimigo")
         {
-            Destroy(collision.gameObject);
+            collision.gameObject.GetComponent<Collider2D>().enabled = false;
+            //Destroy(collision.gameObject);
             anim.SetTrigger("dano");
             gc.Vidas--;
             if(gc.Vidas <= 0)
@@ -99,7 +100,8 @@ public class Player : MonoBehaviour
         }
         if (colisao.gameObject.tag == "Inimigo")
         {
-            Destroy(colisao.gameObject);
+            //Destroy(colisao.gameObject);
+            colisao.gameObject.GetComponent<Collider2D>().enabled = false;
             gc.Vidas--;
             anim.SetTrigger("dano");
             if (gc.Vidas <= 0)
