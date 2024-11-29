@@ -81,7 +81,7 @@ public class GameController : MonoBehaviour
 
         if(Tempo >= 20f)
         {
-            AllSpeed = AllSpeed + 0.1f;
+            AllSpeed = AllSpeed + 0.05f;
             Tempo = 0;
         }
     }

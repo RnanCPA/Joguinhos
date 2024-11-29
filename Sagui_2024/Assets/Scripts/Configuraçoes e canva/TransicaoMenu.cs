@@ -28,7 +28,7 @@ public class TransicaoMenu : MonoBehaviour
 
     public void MudarCena()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void CarregarJogo()

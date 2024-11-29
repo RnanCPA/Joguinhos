@@ -6,15 +6,19 @@ using UnityEngine.SceneManagement;
 
 public class PassarFase : MonoBehaviour
 {
+    private GameController gc;
 
     public float AvancarFase;
     public float Contador;
     public int _fase;
 
+    public GameObject TelaJogo;
+    public GameObject TransicaoFases;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        gc = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
     }
 
     // Update is called once per frame
@@ -28,16 +32,22 @@ public class PassarFase : MonoBehaviour
             Contador = 0;
         }
 
-
-        if(AvancarFase > 120)
+        if(AvancarFase > 60)
         {
-            ProxFase();
+            AtivarTransicao();
         }
     }
 
-    void ProxFase()
+    void AtivarTransicao()
     {
-        if(_fase == 1)
+        gc.GameLigado = false;
+        TelaJogo.SetActive(false);
+        TransicaoFases.SetActive(true);
+    }
+
+    public void ProxFase()
+    {
+        if (_fase == 1)
         {
             SceneManager.LoadScene(2);
         }
