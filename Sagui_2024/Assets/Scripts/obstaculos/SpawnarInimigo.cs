@@ -46,7 +46,6 @@ public class SpawnarInimigo : MonoBehaviour
                     Vaca.transform.parent = Chao.transform;
                 }
 
-
                 Timer = 0;
                 Destroy(Vaca, 50f);
             }
