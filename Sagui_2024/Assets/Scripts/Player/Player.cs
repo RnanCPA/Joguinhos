@@ -55,7 +55,11 @@ public class Player : MonoBehaviour
         {
             if(gc.GameLigado == true)
             {
-                AtivarPulo();
+                if (PodePular == true)
+                {
+                    anim.SetTrigger("pulo");
+                    PodePular = false;
+                }
             }
         }
     }

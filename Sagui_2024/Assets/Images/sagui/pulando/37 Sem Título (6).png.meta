@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a03e1bb9aacf4d44099204c6c581e637
+guid: 1103c146129ac2343a24d3d4b7ca9871
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 220
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -108,7 +108,70 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: "37 Sem T\xEDtulo (6)_0"
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 21
+        width: 372
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c395eadf6c03114bb319fc6a1412f76
+      internalID: 1134482146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "37 Sem T\xEDtulo (6)_1"
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 167
+        width: 334
+        height: 316
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83bdfd225041e694dafe4e9b4acf679e
+      internalID: 1525819296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "37 Sem T\xEDtulo (6)_2"
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 79
+        width: 411
+        height: 360
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a93dd12309a3c241877482863dc4b09
+      internalID: -244359518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +182,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "37 Sem T\xEDtulo (6)_0": 1134482146
+      "37 Sem T\xEDtulo (6)_1": 1525819296
+      "37 Sem T\xEDtulo (6)_2": -244359518
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
