@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3572983536841532006}
   - component: {fileID: 4468236362230026658}
   - component: {fileID: 2950570057406038463}
+  - component: {fileID: 1639535009441591977}
   m_Layer: 0
   m_Name: obstaculo pedram
   m_TagString: Inimigo
@@ -195,3 +196,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 6
+--- !u!114 &1639535009441591977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4413320844467025865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 845c57082f9809146b70660fe35a2ec8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Audio: {fileID: 8419780845294316619, guid: 4df8ceb3893c6fb4cac3c8c83739ae1d, type: 3}
