@@ -36,7 +36,7 @@ public class SpawnarInimigo : MonoBehaviour
 
             if(Chao.transform.position.x > 9)
             {
-                Vector2 Pos = new Vector2(Chao.transform.position.x, Chao.transform.position.y+1.1f);
+                Vector2 Pos = new Vector2(Chao.transform.position.x, Chao.transform.position.y+1.3f);
 
                 GameObject Vaca = Instantiate(Inimigos[indicador], Pos,
                Quaternion.identity);

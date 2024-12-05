@@ -30,25 +30,6 @@ public class Player : MonoBehaviour
         AnimController(); 
     }
 
-    public void AtivarPulo()
-    {
-        anim.SetTrigger("pulo");
-    }
-
-    public void Pulo()
-    {
-        if (gc.GameLigado == true)
-        {
-            if (PodePular == true)
-            {
-                GameObject som = Instantiate(SomPulo, transform.position, Quaternion.identity);
-                Destroy(som, 0.6f);
-                PodePular = false;
-                rb.velocity = new Vector2(rb.velocity.x, JumpForce);
-            }
-        }
-    }
-
     public void Pular(string acao)
     {
         if(acao == "pular")
