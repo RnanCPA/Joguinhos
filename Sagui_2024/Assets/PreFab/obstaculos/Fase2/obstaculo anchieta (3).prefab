@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3999403791115138737}
   - component: {fileID: 713059901760847602}
   - component: {fileID: 6219763762085191541}
+  - component: {fileID: 5660506965787037168}
   m_Layer: 0
   m_Name: obstaculo anchieta (3)
   m_TagString: Inimigo
@@ -195,3 +196,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.3601232, y: 1.0236919}
   m_EdgeRadius: 0
+--- !u!114 &5660506965787037168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5208008704207551541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 845c57082f9809146b70660fe35a2ec8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Audio: {fileID: 7122243252979753416, guid: 0550680aba6e8484bb4712e346ceab37, type: 3}

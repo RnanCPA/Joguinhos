@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &8420522173713366376
+--- !u!1 &2923544745944575019
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,43 +8,43 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7783000094798866983}
-  - component: {fileID: 613012489280172185}
+  - component: {fileID: 8570224895429440394}
+  - component: {fileID: 1534166106372495428}
   m_Layer: 0
-  m_Name: EfeitoPocao
+  m_Name: SomLixeira
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7783000094798866983
+--- !u!4 &8570224895429440394
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8420522173713366376}
+  m_GameObject: {fileID: 2923544745944575019}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.40260652, y: -0.25928286, z: 1.4066875}
+  m_LocalPosition: {x: -1.1941721, y: 0.05888795, z: -0.085283265}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &613012489280172185
+--- !u!82 &1534166106372495428
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8420522173713366376}
+  m_GameObject: {fileID: 2923544745944575019}
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -6962420501735440834, guid: 981c92cfe4a1f7747a4f82eb0e4a9589, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 922d5143e2dd79947b058c3da756ef83, type: 3}
+  m_audioClip: {fileID: 8300000, guid: dd5b4da6838325f40af6773a3d785c33, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.6
+  m_Volume: 0.8
   m_Pitch: 1
   Loop: 0
   Mute: 0

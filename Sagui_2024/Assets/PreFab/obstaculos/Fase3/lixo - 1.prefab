@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3717130130868011379}
   - component: {fileID: 2585415038204967757}
   - component: {fileID: 7606851791634506430}
+  - component: {fileID: 1068153968881807763}
   m_Layer: 0
   m_Name: lixo - 1
   m_TagString: Inimigo
@@ -185,3 +186,16 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.6377088
+--- !u!114 &1068153968881807763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5630163904410076086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 845c57082f9809146b70660fe35a2ec8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Audio: {fileID: 7099193969104684320, guid: 8d751462a14dec049a0e9d1e4112a5f6, type: 3}

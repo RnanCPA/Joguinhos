@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6800146047787072007}
   - component: {fileID: 6977642895930803790}
   - component: {fileID: -854133033256388604}
+  - component: {fileID: 5812511947208061259}
   m_Layer: 0
   m_Name: obstaculo cebola 2
   m_TagString: Inimigo
@@ -195,3 +196,16 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &5812511947208061259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 533107009409052746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 845c57082f9809146b70660fe35a2ec8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Audio: {fileID: 9054969368153065483, guid: 281e208410d526843ad77e06dda15c3e, type: 3}
